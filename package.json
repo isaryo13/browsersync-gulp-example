@@ -1,0 +1,23 @@
+{
+  "name": "browsersync-gulp-example",
+  "version": "1.0.0",
+  "description": "Example of Browsersync + Gulp",
+  "license": "MIT",
+  "scripts": {
+    "clean": "gulp clean",
+    "prebuild": "npm run clean",
+    "build": "gulp build",
+    "predev": "npm run build",
+    "dev": "gulp"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
